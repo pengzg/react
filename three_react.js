@@ -1,4 +1,4 @@
-
+/* 普通加dom元素 */
 var element = <h1>这是第三个文件</h1>;
 ReactDOM.render(
     element,
@@ -13,4 +13,15 @@ var element2  = [
 ReactDOM.render(
     element2,
     document.getElementById("arr")
+);
+/* 样式 */
+
+var myStyle = {
+    color:"#abcdef",
+    fontSize:100
+};
+
+ReactDOM.render(
+    <h1 style={myStyle}>这是样式</h1>,
+    document.getElementById("thisStyle")
 );
