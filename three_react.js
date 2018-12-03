@@ -25,3 +25,11 @@ ReactDOM.render(
     <h1 style={myStyle}>这是样式</h1>,
     document.getElementById("thisStyle")
 );
+var i=2;
+/* 判断三目运算符 */
+ReactDOM.render(
+    <div>
+        <span>{i==1?"true!":"false!"}</span>
+    </div>,
+    document.getElementById("conditional")
+);
